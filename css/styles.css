@@ -1,7 +1,294 @@
+body {
+	background: url('http://wallpapercave.com/wp/3jQbonO.jpg');
+	margin: 0 auto;
+}
 /*
-	HEADER
+	BOOTSTRAP OVER WRITES
+*/
+
+.navbar {
+	margin-bottom: 0;
+}
+
+/*
+	HEADER/BANNER
 */
 
 header {
-	background-image: url("");
+	background-image: url("../images/me-and-kayla2.jpg");
+	background-size: cover;
+	width: 100%;
 }
+
+.banner {
+	height: 650px;
+	width: 100%;
+}
+
+.banner-heading {
+	color: black;
+	text-align: right;
+	padding: 3em 2em 0 0;
+	font-size: 3.5rem;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+
+/* 
+	MAIN CONTENT 
+*/
+
+.main-wrapper {
+	margin: 3em 0 0 0;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+.left-column,
+.right-column {
+	text-align: center;
+	background: url('https://images.template.net/wp-content/uploads/2015/08/Crumpled-Free-Paper-Background-for-You.png') no-repeat;
+	background-size: cover;
+	border-radius: 2%;
+	margin-bottom: 5em;
+}
+
+.article-title {
+	font-size: 4.5rem;
+}
+
+.intro {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+
+
+/*
+	LEFT COLUMN
+*/
+.about-me {
+	font-style: italic;
+	padding-top: 4em;
+}
+
+.left-column {
+	border: 1px solid black;
+	margin-left: 4em;
+	padding-bottom: 6.15em; 
+}
+
+.left-column-hr-1 {
+	width: 90%;
+	border-color: #9c9191;
+}
+
+.left-column-img {
+	padding-top: 4em;
+}
+
+.left-column img {
+	height: 25em;
+	width: 25em;
+}
+
+.left-column-description {
+	width: 80%;
+	margin:0  auto ;
+	margin-top: 1em;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 2.7rem;
+}
+
+.nss {
+	margin-top: 5em;
+}
+
+.left-column-hr-2 {
+	text-align: center;
+	width: 90%;
+	border-color: #9c9191;
+	margin-top: 10em;
+	margin-bottom: 10em; 
+}
+
+/*
+	RIGHT COLUMN
+*/
+
+.right-column {
+	border: 1px solid black;
+	padding-bottom: 1.9em;
+}
+
+.right-column-hr {
+	width: 78%;
+	border-color: #9c9191;
+}
+
+.quick-info {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5em;
+}
+
+.right-column img {
+	height: 200px;
+	width: 200px;
+	margin-top: 3em;
+
+}
+
+.img-div {
+	height: 280px;
+	width: 250px;
+	margin: 3em auto;
+}
+
+.img-div:hover {
+	background-color: #666666;
+	border-radius: 25%;
+}
+
+
+/*
+	SKILLS SECTION
+*/
+
+.skills-wrapper {
+	background: url('https://images.template.net/wp-content/uploads/2015/08/Crumpled-Free-Paper-Background-for-You.png') no-repeat;
+	background-size: cover;
+	margin: 0 -3.5em 5em -3.5em;
+	text-align: center;
+	border-radius: 5%;
+}
+
+.skills-heading h1 {
+	font-size: 6rem;
+	padding-top: 1em;
+	text-decoration: underline;
+}
+
+.skills-list {
+	font-size: 4rem;
+	padding-top: 1em;
+	padding: 1em;
+}
+
+.skills-list ul {
+	list-style-type: none;
+}
+
+.skills-list ul li {
+	line-height: 2em;
+}
+
+.skills-list ul li a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.list-2 {
+	padding-bottom: 3em;
+}
+
+.highlighter1:hover {
+	color:red;
+}
+
+.highlighter2:hover {
+	color:orange;
+}
+
+.highlighter3:hover {
+	color:#3399ff;
+}
+
+.highlighter4:hover {
+	color:#009999;
+}
+
+.highlighter5:hover {
+	color:#009933;
+}
+
+.highlighter6:hover {
+	color:#ff6666;
+}
+
+.highlighter7:hover {
+	color:#6600cc;
+}
+
+.highlighter8:hover {
+	color:gold;
+}
+
+
+
+/*
+	EXIT BANNER
+*/
+
+.main-exit {
+	text-align: center;
+	border: 1px solid black;
+	background: #006699; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, #006699 , #009999); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #006699 , #009999); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #006699 , #009999); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #006699 , #009999);
+	color: white;
+	padding-bottom: 7em;
+}
+
+.exit-question {
+	padding: 8em 0;
+	font-style: italic;
+}
+
+.exit-question h1 {
+	font-size: 8rem;
+}
+
+.exit-links {
+
+}
+
+.exit-list {
+	list-style-type: none;
+	font-size: 5rem;
+
+}
+
+.exit-list a {
+	color: white;
+	text-decoration: none;
+}
+
+.exit-list a:hover {
+	color:#ff8c1a;
+}
+
+
+/*
+	FOOTER
+*/
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 4rem;
+	padding: 2em 0;
+}
+
+.copyright {
+	text-align: center;
+}
+
+
+/*
+<div class="quick-info">
+		 		<h3>I look forward to joining your team and making something great together!</h3>
+		 	</div>
+		 	*/
